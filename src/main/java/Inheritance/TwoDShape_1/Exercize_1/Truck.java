@@ -1,0 +1,26 @@
+package Inheritance.TwoDShape_1.Exercize_1;
+
+// Расширение класса Vehicle для грузовиков
+public class Truck extends Vehicle {
+    private int cargocap; // грузоподъёмность в фунтах
+
+    // Конструктор класса Truck
+    Truck(int p, int f, int m, int c) {
+        /*
+            Инициализация членов класса Vehicle
+            с использованием конструктора этого класса.
+         */
+        super(p, f, m);
+
+        cargocap = c;
+    }
+
+    // Методы доступа к переменной cargocap
+    int getCargo() {
+        return cargocap;
+    }
+
+    void putCargo(int c) {
+        cargocap = c;
+    }
+}
