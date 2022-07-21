@@ -35,6 +35,6 @@ public class Triangle extends TwoDShape {
     }
 
     void showStyle() {
-        System.out.println("Треугольниу " + style);
+        System.out.println("Треугольник " + style);
     }
 }
